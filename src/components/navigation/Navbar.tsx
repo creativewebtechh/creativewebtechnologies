@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 import { siteConfig } from '../../data/site';
 import { Button } from '../ui/Button';
-import logo from '../../assets/creativewebtech-logo.png';
+import logo from '../../assets/creativewebtech-logo-transparent.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,11 +59,7 @@ export function Navbar() {
       <nav className="container py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img
-              src={logo}
-              alt={siteConfig.name}
-              className="h-10 w-auto mix-blend-multiply"
-            />
+            <img src={logo} alt={siteConfig.name} className="h-10 w-auto" />
             <span
               className={clsx(
                 'font-bold text-xl transition-colors',
