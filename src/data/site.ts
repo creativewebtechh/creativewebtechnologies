@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: 'Creative Web Technologies',
-  tagline: 'Digital Products. Built for Growth.',
+  tagline: 'Software Development Suite for Creative Web Technologies',
   description:
     'Creative Web Technologies designs and develops high-performance websites, mobile applications, web applications, and custom software solutions that help businesses innovate, automate, and scale.',
-  email: 'hello@creativewebtech.com',
-  phone: '+1 (555) 123-4567',
-  whatsapp: '+15551234567',
+  email: 'creativetechinnovation@gmail.com',
+  phone: '08167263577',
+  whatsapp: '2348167263577',
   address: '',
   social: {
     twitter: '',
