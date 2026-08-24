@@ -6,6 +6,8 @@ import {
   ShoppingCart,
   Code,
   Cloud,
+  Server,
+  HeadsetIcon,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -131,5 +133,39 @@ export const services: Service[] = [
       'Automated Backups',
     ],
     slug: 'cloud-deployment',
+  },
+  {
+    id: 'web-hosting-domain',
+    title: 'Web Hosting & Domain Services',
+    description:
+      'We provide reliable web hosting and domain registration services, ensuring your website stays fast, secure, and always online.',
+    icon: Server,
+    features: [
+      'Domain Registration',
+      'Shared & VPS Hosting',
+      'Website Migration',
+      'SSL Certificates',
+      'Email Hosting',
+      'DNS Management',
+      'Uptime Monitoring',
+    ],
+    slug: 'web-hosting-domain-services',
+  },
+  {
+    id: 'it-services',
+    title: 'IT Services',
+    description:
+      'We offer comprehensive IT support and consulting to keep your business technology running smoothly and securely.',
+    icon: HeadsetIcon,
+    features: [
+      'IT Consulting',
+      'Network Setup & Support',
+      'Hardware & Software Support',
+      'Data Backup & Recovery',
+      'Cybersecurity Solutions',
+      'IT Infrastructure Management',
+      'Technical Support',
+    ],
+    slug: 'it-services',
   },
 ];
