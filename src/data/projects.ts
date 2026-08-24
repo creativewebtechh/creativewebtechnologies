@@ -17,7 +17,7 @@ export const projects: Project[] = [
       'A multi-vendor marketplace platform enabling sellers to list, manage, and sell products with real-time inventory tracking and secure payment processing.',
     technologies: ['React', 'Laravel', 'MySQL', 'Sanctum', 'REST API'],
     slug: 'sellhub-marketplace',
-    image: '/projects/sellhub-marketplace.png',
+    image: '/sellhub-marketplace.png',
   },
   {
     id: 'fleet-management',
@@ -27,7 +27,7 @@ export const projects: Project[] = [
       'A comprehensive fleet management dashboard for tracking vehicles, managing routes, monitoring driver performance, and optimizing logistics operations.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Mapbox'],
     slug: 'fleet-management',
-    image: '/projects/fleet-management.png',
+    image: '/fleet-management.png',
   },
   {
     id: 'healthcare-portal',
@@ -37,7 +37,7 @@ export const projects: Project[] = [
       'A secure patient portal for healthcare providers featuring appointment scheduling, medical records access, and telemedicine integration.',
     technologies: ['Next.js', 'Laravel', 'PostgreSQL', 'REST API'],
     slug: 'healthcare-portal',
-    image: '/projects/healthcare-portal.png',
+    image: '/healthcare-portal.png',
   },
   {
     id: 'fitness-tracker',
@@ -47,7 +47,7 @@ export const projects: Project[] = [
       'A cross-platform fitness application with workout tracking, nutrition planning, progress analytics, and social features for community engagement.',
     technologies: ['Flutter', 'Firebase', 'Node.js', 'REST API'],
     slug: 'fitness-tracker',
-    image: '/projects/fitness-tracker.png',
+    image: '/fitness-tracker.png',
   },
   {
     id: 'fastpay',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
       'A secure digital payments platform enabling instant transfers, merchant checkout, and real-time transaction tracking with fraud detection built in.',
     technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe API'],
     slug: 'fastpay',
-    image: '/projects/fastpay.png',
+    image: '/fastpay.png',
   },
   {
     id: 'logverify',
@@ -67,6 +67,16 @@ export const projects: Project[] = [
       'A digital marketplace platform connecting verified buyers and sellers, with built-in identity verification, secure listings, and transaction protection.',
     technologies: ['React', 'Laravel', 'PostgreSQL', 'REST API'],
     slug: 'logverify',
-    image: '/projects/logverify.png',
+    image: '/logverify.png',
+  },
+  {
+    id: 'quickbite-delivery',
+    title: 'QuickBite Delivery',
+    category: 'Mobile App',
+    description:
+      'A food delivery app connecting customers with local restaurants, featuring live order tracking, in-app payments, and rider dispatch management.',
+    technologies: ['Flutter', 'Node.js', 'MongoDB', 'Google Maps API'],
+    slug: 'quickbite-delivery',
+    image: '/quickbite-delivery.png',
   },
 ];
