@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+              import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 import { siteConfig } from '../../data/site';
 import { Button } from '../ui/Button';
+import logo from '../../assets/creativewebtech-logo.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,9 +59,7 @@ export function Navbar() {
       <nav className="container py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">C</span>
-            </div>
+            <img src={logo} alt={siteConfig.name} className="h-10 w-auto" />
             <span
               className={clsx(
                 'font-bold text-xl transition-colors',
@@ -143,4 +142,4 @@ export function Navbar() {
       </nav>
     </header>
   );
-}
+          }
