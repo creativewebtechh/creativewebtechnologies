@@ -1,4 +1,4 @@
-              import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
@@ -59,7 +59,11 @@ export function Navbar() {
       <nav className="container py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt={siteConfig.name} className="h-10 w-auto" />
+            <img
+              src={logo}
+              alt={siteConfig.name}
+              className="h-10 w-auto mix-blend-multiply"
+            />
             <span
               className={clsx(
                 'font-bold text-xl transition-colors',
@@ -142,4 +146,4 @@ export function Navbar() {
       </nav>
     </header>
   );
-          }
+                }
