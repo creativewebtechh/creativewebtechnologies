@@ -21,11 +21,11 @@ const projectTypes = [
 
 const budgetOptions = [
   { value: '', label: 'Select budget range' },
-  { value: '5000-10000', label: '$5,000 - $10,000' },
-  { value: '10000-25000', label: '$10,000 - $25,000' },
-  { value: '25000-50000', label: '$25,000 - $50,000' },
-  { value: '50000-100000', label: '$50,000 - $100,000' },
-  { value: '100000+', label: '$100,000+' },
+  { value: '150000-300000', label: '₦150,000 - ₦300,000' },
+  { value: '300000-700000', label: '₦300,000 - ₦700,000' },
+  { value: '700000-1500000', label: '₦700,000 - ₦1,500,000' },
+  { value: '1500000-3000000', label: '₦1,500,000 - ₦3,000,000' },
+  { value: '3000000+', label: '₦3,000,000+' },
 ];
 
 const timelineOptions = [
@@ -164,7 +164,7 @@ export function QuotePage() {
                 type="tel"
                 value={formData.phone}
                 onChange={(e) => updateFormData('phone', e.target.value)}
-                placeholder="+1 (555) 123-4567"
+                placeholder="+234 816 726 3577"
               />
             </div>
           </div>
@@ -323,4 +323,4 @@ export function QuotePage() {
       </Section>
     </>
   );
-}
+          }
